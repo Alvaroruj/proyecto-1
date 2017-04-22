@@ -1,0 +1,113 @@
+@charset "utf-8";
+/* **Estilo general** */
+html,body{
+    background-color: lightgreen;
+    background-image: linear-gradient(black, lightblue);
+    background-attachment: fixed;
+    height: 99%;
+    margin: 0;
+}
+
+#wrap {
+    padding: 5px;
+    min-height: -webkit-calc(100% - 100px);     /* Chrome */
+    min-height: -moz-calc(100% - 100px);     /* Firefox */
+    min-height: calc(100% - 100px);     /* native */
+}
+
+h1{font-family: 'Ubuntu Condensed', sans-serif;}
+h2{font-family: 'Fjalla One', sans-serif;}
+
+#footer{position: relative;
+    clear:both;}
+
+#nav{margin-top: 10px;}
+#footer{background-color: #000; color: white; text-align: center;width: 100%; position: absolute;}
+
+section{margin-top: 10px;}
+
+#boton{margin: 10px;white-space: normal;width: 300px;}          /*Botones que no */
+#boton a{color: white;}                                         /*forman parte del nav */
+ 
+
+#icon-brand{margin-top: -3px;}  /* Icono del Navbar */
+
+#infoblock1{  /* Bloque de informacion en la pagina principal */  
+    background-color: white;
+    
+    text-align: center; 
+    padding-top: 10px;
+    box-shadow: 0px 0px 10px black;
+}
+
+#infoblock1 h2{color: white; text-shadow: -1px -1px 1px #000, 1px 1px 1px #000, -1px 1px 1px #000, 1px -1px 1px #000;} /* Sombra de los titulos en el infoblock1 */
+
+#infoblock2{ /* Bloque de informacion de las demás paginas */
+    background-color: white;
+    box-shadow: 0px 0px 10px black;
+    
+}
+
+#infoblock2 h1{color: white; text-shadow: -1px -1px 1px #000, 1px 1px 1px #000, -1px 1px 1px #000, 1px -1px 1px #000;}/* Sombra de los titulos en el infoblock2 */
+/*-------------------*/
+
+/* Pagina principal */
+div.c-wrapper{ /*Ajusta tamaño del carrusel*/
+    width: 80%; 
+    margin: auto;
+}
+/* ajusta automaticamente imagen a ventana del carrusel, idependientemente del tamaño que sea. */
+.carousel-inner > .item > img, 
+.carousel-inner > .item > a > img{
+width: 100%; 
+margin: auto;
+}
+
+#myCarousel h1{text-shadow: 4px 4px 3px rgba(0, 0, 0, 1);}
+
+hr {
+    border-color: #0F8C0B;
+    border-radius: 5px;
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0px 0px 30px green;
+}
+
+
+.jumbotron{
+	text-align: center;box-shadow: 0px 0px 10px black;
+	background: url("../img/img-jumbotron.jpg") no-repeat center center;}
+.jumbotron h1{color: white;text-shadow: 3px 3px 3px #000;}
+.custom{width: 450px}
+
+#quote{text-align: center;}
+
+/*-------------------*/
+
+/* Descargas */
+#descargas{text-align: center;}
+/*-------------------*/
+
+/* Capturas */
+#imagenes{padding:10px; text-align: center;}
+#imagenes img{margin: 5px;border-style: solid;border-width: 3px;}
+/*-------------------*/
+
+/* Contacto */
+#formulario{
+    margin: 20px; 
+    
+    padding: 10px;
+}
+textarea{width: 550px;}
+/*-------------------*/
+
+
+
+
+

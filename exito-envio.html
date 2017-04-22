@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Proyecto 1: aplicacion de reparacion y liberacion de celulares Android</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/estilo_usuario.css">
+     <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Ubuntu+Condensed" rel="stylesheet">
+
+  </head>
+  <body>
+    <header><!-- cabecera -->
+      <div id="nav" class="container"><!-- navbar -->
+        <div class="navbar navbar-default">
+          <div class="container-fluid">
+            <div class="navbar-header">
+             
+            <a class="navbar-brand" href="#" id="icon-brand"><!-- icono del navbar -->
+                <img alt="Brand" src="img/icon-brand.png" width="30px">
+            </a>           
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#subbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button> 
+              <a class="navbar-brand" href="#">Proyecto 1</a>
+            </div>
+             
+              <div class="collapse navbar-collapse" id="subbar">
+                <ul class="nav navbar-nav">
+                   <li><a href="index.html">Inicio</a></li>
+                  <li><a href="capturas.html">Capturas</a></li>
+                  <li><a href="Descargas.html">Descargas</a></li>
+                  <li class="active"><a href="#">Contactos</a></li>
+                  <li><a href="Mas_info.html">Mas info</a></li>
+                </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header><!-- Termina cabecera -->
+    <section id="wrap">
+      <div class="container">
+        <div class="col-md-1"></div>
+        <div class="col-md-10" id="infoblock2">
+          <h1>Informacion de Contacto</h1>
+          <p>proyecto1_contacto@gmail.com</p>
+          <p>Calle Comercio 123 - Punto Fijo Edo. Falcon</p>
+          <p>Telf: 04261234567</p>
+          <p>Abril del 2017</p>
+   
+    <section id="formulario">
+    <div class="container">
+      <div class="col-md-4">
+        <div class="alert alert-success" role="alert">
+           <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+            Se ha podido enviar el contacto.
+         </div>
+        <h2>Contacto directo</h2>
+        <form action="envia-correo.php">
+          <div class="form-group">
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" class="form-control" required>
+          </div>
+          <div class="form-group">
+            <label for="correo">Correo Electronico:</label>
+            <input type="email" name="correo" class="form-control" required>
+          </div>
+          <div>
+            <label for="comentarios">Comentario:</label>
+            <textarea name="comentarios" rows="10" placeholder="Escribe aqui..."></textarea>
+          </div>
+          <div class="checkbox"><label for="suscripcion"><input type="checkbox" name="suscripcion">Suscribirme</label></div>
+          <div>
+            
+            <button type="submit" class="btn btn-default">Enviar</button>
+          </div>
+          
+        </form>
+      </div>
+      <div class="col-md-8"></div>
+    </div>
+          
+  </section>
+        </div>
+        <div class="col-md-1"></div>        
+      </div>
+    </section>
+
+  <div id="footer">
+     Alvaro Rujano 2017 © 
+  </div><!-- termina pie de pagina -->
+    <!-- Bootstrap -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
